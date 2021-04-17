@@ -1,124 +1,146 @@
 /* eslint-disable */
-export const announcement = [
+
+import dashboard from './images/nav/dashboard.png';
+import apps from './images/nav/apps.png';
+import components from './images/nav/components.png';
+import layout from './images/nav/layout.png';
+import forms from './images/nav/forms.png';
+import charts from './images/nav/charts.png';
+import tables from './images/nav/tables.png';
+import calendar from './images/nav/calendar.png';
+import maps from './images/nav/maps.png';
+
+import newMessage1 from './images/new-messages/newMessage1.png';
+import newMessage2 from './images/new-messages/newMessage2.png';
+import newMessage3 from './images/new-messages/newMessage3.png';
+import newMessage4 from './images/new-messages/newMessage4.png';
+
+import chatLine1 from './images/chat-line/chat-line-1.png';
+import chatLine2 from './images/chat-line/chat-line-2.png';
+import chatLine3 from './images/chat-line/chat-line-3.png';
+import chatLine4 from './images/chat-line/chat-line-4.png';
+import chatLine5 from './images/chat-line/chat-line-5.png';
+
+
+
+export const navs = [
   {
-    id: 1,
-    title: 'MERRY CHRISTMAS EVERYONE AND DAYS OFF SCHEDULE',
-    text: 'Thank you everyone for all of your supprts. Please notice days off schedule...',
-    viewed: 12459,
-    position: 'principal',
+    id: 'nav-1',
+    title: 'Dashboard',
+    img: dashboard,
+    links: [],
   },
   {
-    id: 2,
-    title: 'HISTORY OF DETAILS ASSINMENT DETAILS',
-    text: 'Hello Student, remember we have a small assignment before Christmas break...',
-    viewed: 5362,
-    position: 'teacher',
+    id: 'nav-2',
+    title: 'Apps',
+    img: apps,
+    links: ['Mailbox', 'Search', 'To do List'],
   },
   {
-    id: 3,
-    title: 'DAYS OFF SCHEDULE',
-    text: 'Thank you everyone for all of your supprts. Please notice days off schedule...',
-    viewed: 459,
-    position: 'principal',
+    id: 'nav-3',
+    title: 'Components',
+    img: components,
+    links: [],
   },
   {
-    id: 4,
-    title: 'CHRISTMAS AND DAYS OFF SCHEDULE',
-    text: 'Thank you everyone for all of your supprts. Please notice days off schedule...',
-    viewed: 124459,
-    position: 'teacher',
+    id: 'nav-4',
+    title: 'Layout',
+    img: layout,
+    links: [],
   },
   {
-    id: 5,
-    title: 'MERRY CHRISTMAS EVERYONE AND DAYS OFF SCHEDULE',
-    text: 'Thank you everyone for all of your supprts. Please notice days off schedule...',
-    viewed: 8659,
-    position: 'teacher',
+    id: 'nav-5',
+    title: 'Forms',
+    img: forms,
+    links: [],
   },
   {
-    id: 6,
-    title: 'MERRY',
-    text: 'Thank you everyone for all of your supprts. Please notice days off schedule...',
-    viewed: 7659,
-    position: 'principal',
+    id: 'nav-6',
+    title: 'Charts',
+    img: charts,
+    links: [],
   },
   {
-    id: 7,
-    title: 'EVERYONE AND NOBODY',
-    text: 'Thank you everyone for all of your supprts. Please notice days off schedule...',
-    viewed: 85659,
-    position: 'teacher',
+    id: 'nav-7',
+    title: 'Tables',
+    img: tables,
+    links: [],
   },
   {
-    id: 8,
-    title: 'SCHEDULE',
-    text: 'Thank you everyone for all of your supprts. Please notice days off schedule...',
-    viewed: 1159,
-    position: 'teacher',
+    id: 'nav-8',
+    title: 'Calendar',
+    img: calendar,
+    links: [],
   },
   {
-    id: 9,
-    title: 'IVAN ANANA',
-    text: 'Thank you everyone for all of your supprts. Please notice days off schedule...',
-    viewed: 1111,
-    position: 'principal',
+    id: 'nav-9',
+    title: 'Maps',
+    img: maps,
+    links: [],
   },
 ];
 
-export const people = [
+export const newMrssages = [
   {
-    id: 0,
-    name: 'Mr. Sheldon Cooper',
-    message: 'What is wrong with your homework?',
-    online: true,
-    whenWasLastTime: 'Just now'
+    id: 'newMessage1',
+    name: 'Johna Partel',
+    lastOnline: '2 hours ago',
+    img: newMessage1,
   },
   {
-    id: 1,
-    name: 'Jason Bourne',
-    message: `Hey dude! What's the plan?`,
+    id: 'newMessage2',
+    name: 'John Partel',
+    lastOnline: '2 hours ago',
+    img: newMessage2,
+  },
+  {
+    id: 'newMessage3',
+    name: 'Ivan Partel',
+    lastOnline: '4 hours ago',
+    img: newMessage3,
+  },
+  {
+    id: 'newMessage4',
+    name: 'Andre Boyarskiy',
+    lastOnline: '3 hours ago',
+    img: newMessage4,
+  },
+];
+
+export const chatLine = [
+  {
+    id: 'chatLine1',
+    name: 'John Partel',
+    message: 'Call Me Later..?',
+    img: chatLine1,
     online: false,
-    whenWasLastTime: '2 hours ago'
   },
   {
-    id: 2,
-    name: 'Mr. Barney Stinson',
-    message: `Have you tried my formula?`,
+    id: 'chatLine2',
+    name: 'John Partel',
+    message: 'Hello! bro..',
+    img: chatLine2,
     online: true,
-    whenWasLastTime: '1 day ago'
   },
   {
-    id: 3,
-    name: 'Jesse Pinkman',
-    message: `I finished it 2 days ago`,
+    id: 'chatLine3',
+    name: 'John Partel',
+    message: 'Can you help me?',
+    img: chatLine3,
     online: true,
-    whenWasLastTime: '1 day ago'
-  },
-];
-
-export const courses = [
-  {
-    id: 1,
-    title: 'History of the Earth',
-    text: 'Teacher:Mr.Jason Bourne',
-    complite: 100,
   },
   {
-    id: 2,
-    title: 'Introduction to Geography',
-    text: 'Teacher:Mr Barney Stinson',
-    complite: 70,
+    id: 'chatLine4',
+    name: 'John Partel',
+    message: 'What?',
+    img: chatLine4,
+    online: false,
   },
   {
-    id: 3,
-    title: 'Math Formative Assessment',
-    text: 'Teacher:Ms.Chartie Theron',
-    complite: 55,
-  },
-  {
-    id: 4,
-    title: 'The Special THeory of Relativity',
-    text: 'Teacher:Mr.Matt Damon',
-    complite: 20,
+    id: 'chatLine5',
+    name: 'Jony Partel',
+    message: 'Hello!',
+    img: chatLine5,
+    online: true,
   }
 ];

@@ -1,0 +1,50 @@
+.chat-line {
+  &__title {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 27px;
+
+    font-size: 14px;
+    font-weight: normal;
+    color: rgb( 65, 64, 66 );
+  }
+  
+  &__item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 25px;
+    margin-bottom: 20px;
+  }
+  
+  &__img {
+    height: 42px;
+    width: 42px;
+    margin-right: 17px;
+
+    border-radius: 50%;
+  }
+
+  &__name {
+    color: rgb( 65, 64, 66 );
+    font-size: 14px;
+    font-weight: normal;
+  }
+
+  
+  &__circle {
+    position: absolute;
+    right: 27px;
+    top: 8px;
+
+    height: 10px;
+    width: 10px;
+
+    background-color: #ff5b5b;
+    border-radius: 50%;
+
+    &--online {
+      background-color: rgb( 16, 196, 105 );
+    }
+  }
+}

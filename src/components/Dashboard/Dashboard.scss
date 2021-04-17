@@ -1,0 +1,14 @@
+.dashboard {
+  width: calc(100% - 240px);
+  padding: 30px;
+
+  &--small {
+    width: calc(100% - 240px - 290px);
+  }
+
+  &__wrapper-visitors {
+    display: grid;
+    grid-template-columns: 2.05fr 1fr;
+    gap: 17px;
+  }
+}
