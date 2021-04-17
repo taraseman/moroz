@@ -1,6 +1,6 @@
-# NULP project Taras Seman AM-33 :grinning:
+# NULP project Dmytro Moroz AM-33
 
- - [DeMo](https://taraseman.github.io/nulp-project/#/dashboard).
+ - [DeMo](https://taraseman.github.io/moroz/#/).
 
 ## Description
 NEXAPP
