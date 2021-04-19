@@ -11,4 +11,14 @@
     grid-template-columns: 2.05fr 1fr;
     gap: 17px;
   }
+  &__visitors {
+    height: 540px;
+    background-color: red;
+  }
+  &__top-order-wrapper {
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 17px;
+  }
 }

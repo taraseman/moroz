@@ -144,3 +144,16 @@ export const chatLine = [
     online: true,
   }
 ];
+
+export const events = [
+  {
+    title: 'be reviews meetup',
+    number: 29,
+    color: 'red',
+  },
+  {
+    title: 'Google meetup',
+    number: 25,
+    color: 'green',
+  },
+];
