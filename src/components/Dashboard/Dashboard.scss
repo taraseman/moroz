@@ -16,6 +16,8 @@
     background-color: red;
   }
   &__top-order-wrapper {
+    margin-top: 20px;
+  
     height: 400px;
     display: grid;
     grid-template-columns: 1fr 1fr;

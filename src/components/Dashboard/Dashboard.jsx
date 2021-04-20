@@ -6,6 +6,7 @@ import { Events } from '../Events';
 import { Weather } from '../Weather';
 
 import './Dashboard.scss';
+import { Order } from '../Order/Order';
 
 export const Dashboard = ({ isNavVisible }) => {
   const options = {
@@ -49,7 +50,9 @@ export const Dashboard = ({ isNavVisible }) => {
       </div>
       <div className="dashboard__top-order-wrapper">
         <div>top</div>
-        <div>order</div>
+        <div>
+          <Order />
+        </div>
       </div>
     </div>
   );

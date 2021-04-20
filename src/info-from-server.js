@@ -154,6 +154,16 @@ export const events = [
   {
     title: 'Google meetup',
     number: 25,
+    color: 'blue',
+  },
+  {
+    title: 'Google meetup',
+    number: 4,
+    color: 'red',
+  },
+  {
+    title: 'Google meetup',
+    number: 254,
     color: 'green',
   },
 ];

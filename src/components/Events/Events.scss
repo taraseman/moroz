@@ -4,4 +4,21 @@
 
   padding: 40px;
   background-color: #fff;
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+
+    height: 150px;
+    background-color: rgb(204, 201, 201);
+    margin-bottom: 3px;
+  }
+  &__item-box {
+    color: #fff;
+  }
+  &__list {
+    height: 200px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+  }
 }
