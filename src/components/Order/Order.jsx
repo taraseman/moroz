@@ -1,6 +1,8 @@
 import React from 'react';
 import { CanvasJSChart } from 'canvasjs-react-charts';
 
+import './Order.scss';
+
 export const Order = () => {
   const options = {
     animationEnabled: true,
@@ -25,8 +27,10 @@ export const Order = () => {
   };
 
   return (
-    <CanvasJSChart
-      options={options}
-    />
+    <div className="order">
+      <CanvasJSChart
+        options={options}
+      />
+    </div>
   );
 };

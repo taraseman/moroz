@@ -7,6 +7,8 @@ import { Weather } from '../Weather';
 
 import './Dashboard.scss';
 import { Order } from '../Order/Order';
+import { Comments } from '../Comments';
+import { Top } from '../Top';
 
 export const Dashboard = ({ isNavVisible }) => {
   const options = {
@@ -49,10 +51,14 @@ export const Dashboard = ({ isNavVisible }) => {
         </div>
       </div>
       <div className="dashboard__top-order-wrapper">
-        <div>top</div>
+        <Top />
         <div className="dashboard__order">
           <Order />
         </div>
+      </div>
+      <Comments />
+      <div className="dashboard__footer">
+        All Right Reserved 2016 © MaslimMahin
       </div>
     </div>
   );

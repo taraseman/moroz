@@ -1,4 +1,8 @@
 .weather {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   height: 260px;
   background-color: #198ae1;
 
@@ -20,5 +24,16 @@
   }
   &__date {
     font-size: 20px;
+  }
+
+  &__bottom {
+    text-align: start;
+
+    &__grad {
+      font-size: 34px;
+    }
+    &__location {
+      font-size: 20px;
+    }
   }
 }

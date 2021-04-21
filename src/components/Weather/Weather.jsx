@@ -14,5 +14,9 @@ export const Weather = () => (
       <p className="weather__week-day">Sunday</p>
       <p className="weather__date">September 02</p>
     </div>
+    <div className="weather__bottom">
+      <p className="weather__bottom__grad">74°F</p>
+      <p className="weather__bottom__location">Dhaka, Bangladesh</p>
+    </div>
   </div>
 );

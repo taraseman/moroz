@@ -149,21 +149,161 @@ export const events = [
   {
     title: 'be reviews meetup',
     number: 29,
-    color: 'red',
+    color: '#ff5b5b',
   },
   {
     title: 'Google meetup',
     number: 25,
-    color: 'blue',
+    color: '#188ae2',
   },
   {
     title: 'Google meetup',
     number: 4,
-    color: 'red',
+    color: '#10c469',
   },
   {
     title: 'Google meetup',
     number: 254,
-    color: 'green',
+    color: '#ff5b5b',
+  },
+  {
+    title: 'be reviews meetup',
+    number: 29,
+    color: '#ff5b5b',
+  },
+  {
+    title: 'Google meetup',
+    number: 25,
+    color: '#188ae2',
+  },
+  {
+    title: 'Google meetup',
+    number: 4,
+    color: '#10c469',
+  },
+  {
+    title: 'Google meetup',
+    number: 254,
+    color: '#ff5b5b',
+  },
+  {
+    title: 'be reviews meetup',
+    number: 29,
+    color: '#ff5b5b',
+  },
+  {
+    title: 'Google meetup',
+    number: 25,
+    color: '#188ae2',
+  },
+  {
+    title: 'Google meetup',
+    number: 4,
+    color: '#10c469',
+  },
+  {
+    title: 'Google meetup',
+    number: 254,
+    color: '#ff5b5b',
+  },
+  {
+    title: 'be reviews meetup',
+    number: 29,
+    color: '#ff5b5b',
+  },
+  {
+    title: 'Google meetup',
+    number: 25,
+    color: '#188ae2',
+  },
+  {
+    title: 'Google meetup',
+    number: 4,
+    color: '#10c469',
+  },
+  {
+    title: 'Google meetup',
+    number: 254,
+    color: '#ff5b5b',
+  },
+  {
+    title: 'be reviews meetup',
+    number: 29,
+    color: '#ff5b5b',
+  },
+  {
+    title: 'Google meetup',
+    number: 25,
+    color: '#188ae2',
+  },
+  {
+    title: 'Google meetup',
+    number: 4,
+    color: '#10c469',
+  },
+  {
+    title: 'Google meetup',
+    number: 254,
+    color: '#ff5b5b',
+  },
+  {
+    title: 'be reviews meetup',
+    number: 29,
+    color: '#ff5b5b',
+  },
+  {
+    title: 'Google meetup',
+    number: 25,
+    color: '#188ae2',
+  },
+  {
+    title: 'Google meetup',
+    number: 4,
+    color: '#10c469',
+  },
+  {
+    title: 'Google meetup',
+    number: 254,
+    color: '#ff5b5b',
+  },
+  {
+    title: 'be reviews meetup',
+    number: 29,
+    color: '#ff5b5b',
+  },
+  {
+    title: 'Google meetup',
+    number: 25,
+    color: '#188ae2',
+  },
+  {
+    title: 'Google meetup',
+    number: 4,
+    color: '#10c469',
+  },
+  {
+    title: 'Google meetup',
+    number: 254,
+    color: '#ff5b5b',
+  },
+  {
+    title: 'be reviews meetup',
+    number: 29,
+    color: '#ff5b5b',
+  },
+  {
+    title: 'Google meetup',
+    number: 25,
+    color: '#188ae2',
+  },
+  {
+    title: 'Google meetup',
+    number: 4,
+    color: '#10c469',
+  },
+  {
+    title: 'Google meetup',
+    number: 254,
+    color: '#ff5b5b',
   },
 ];

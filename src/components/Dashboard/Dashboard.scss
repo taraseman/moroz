@@ -1,6 +1,9 @@
 .dashboard {
   width: calc(100% - 240px);
   padding: 30px;
+  padding-bottom: 0;
+
+  background-color: #eef0f4;
 
   &--small {
     width: calc(100% - 240px - 290px);
@@ -16,9 +19,12 @@
     height: 540px;
     padding: 1px;
     padding-top: 60px;
+
+    background-color: #fff;
   }
   &__top-order-wrapper {
     margin-top: 20px;
+    margin-bottom: 50px;
   
     height: 400px;
     display: grid;
@@ -29,5 +35,23 @@
   &__order {
     border: 1px rgb(228, 228, 228) solid;
     padding: 1px;
+
+    background-color: #fff;
+  }
+
+  &__footer {
+    position: relative;
+    left: -30px;
+    height: 60px;
+    width: calc(100% + 60px);
+
+    padding-left: 30px;
+    padding-top: 17px;
+
+    margin-top: 28px;
+    border-top: 1px rgb(201, 199, 199) solid;
+    color: rgb(113, 112, 114);
+
+    font-size: 14px;
   }
 }

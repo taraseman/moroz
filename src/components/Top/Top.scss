@@ -1,0 +1,43 @@
+.top {
+  border: 1px rgb(228, 228, 228) solid;
+
+  padding-bottom: 30px;
+  padding-left: 35px;
+  padding-top: 33px;
+  padding-right: 30px;
+
+  background-color: #fff;
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__title {
+    font-weight: normal;
+    font-size: 20px;
+    color: #6b6a6d;
+  }
+
+  &__text {
+    font-size: 18px;
+    color: #999;
+  }
+
+  &__button {
+    background-color: #fff;
+    height: 33px;
+    padding: 0 5px;
+    // width: 70px;
+
+    font-size: 18px;
+    border: 1px #999 solid;
+    border-radius: 6px;
+    color: #6b6a6d;
+
+    &:hover {
+      background-color: rgb(158, 153, 153);
+    }
+  }
+
+}
