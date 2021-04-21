@@ -1,4 +1,7 @@
 import React from 'react';
+import { PhoneRating } from '../PhoneRating';
+
+import { topPhones } from '../../info-from-server';
 
 import './Top.scss';
 
@@ -19,7 +22,18 @@ export const Top = () => (
       </div>
     </div>
     <ul className="top__rating-list">
-      {}
+      {topPhones.map(item => (
+        <li
+          key={item.id}
+        >
+          <PhoneRating
+            title={item.title}
+            number={item.number}
+            percent={item.percent}
+            color={item.color}
+          />
+        </li>
+      ))}
     </ul>
   </div>
 );

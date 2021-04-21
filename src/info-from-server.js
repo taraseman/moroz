@@ -21,6 +21,9 @@ import chatLine3 from './images/chat-line/chat-line-3.png';
 import chatLine4 from './images/chat-line/chat-line-4.png';
 import chatLine5 from './images/chat-line/chat-line-5.png';
 
+import comment1 from './images/person-1.png';
+import comment2 from './images/person-2.png';
+
 
 
 export const navs = [
@@ -306,4 +309,47 @@ export const events = [
     number: 254,
     color: '#ff5b5b',
   },
+];
+
+export const topPhones = [
+  {
+    id: 1111,
+    title: 'Iphone 6',
+    number: 195,
+    percent: '80%',
+    color: '#188ae2',
+  },
+  {
+    id: 1112,
+    title: 'Iphone 5',
+    number: 355,
+    percent: '75%',
+    color: '#ff5b5b',
+  },
+  {
+    id: 1113,
+    title: 'Iphone 7',
+    number: 105,
+    percent: '40%',
+    color: '#10c469',
+  },
+];
+
+export const comments = [
+  {
+    id: 'com-1',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.',
+    buttonText: 'Approved',
+    buttonColor: '#10c469',
+    date: 'August 14, 2016',
+    img: comment1,
+  },
+  {
+    id: 'com-2',
+    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation.',
+    buttonText: 'Approved',
+    buttonColor: '#ff5b5b',
+    date: 'August 14, 2016',
+    img: comment2,
+  }
 ];

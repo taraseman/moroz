@@ -1,0 +1,47 @@
+.comment {
+  margin-bottom: 35px;
+
+  &__top {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 20px;
+
+    &__img {
+      margin-right: 17px;
+      border-radius: 50%;
+    }
+
+    &__text {
+      font-size: 14px;
+      color: #6b6a6d;
+    }
+  }
+
+  &__bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__button {
+      padding-left: 18px;
+      padding-right: 18px;
+      padding-top: 7px;
+      padding-bottom: 7px;
+
+      border: 0;
+      border-radius: 23px;
+      color: #fff;
+      font-size: 16px;
+
+      &:hover {
+        color: rgb(206, 203, 203);
+        cursor: pointer;
+      }
+    }
+
+    &__date {
+      color: #999;
+    }
+  }
+}
