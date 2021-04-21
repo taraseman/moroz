@@ -50,7 +50,7 @@ export const Dashboard = ({ isNavVisible }) => {
       </div>
       <div className="dashboard__top-order-wrapper">
         <div>top</div>
-        <div>
+        <div className="dashboard__order">
           <Order />
         </div>
       </div>

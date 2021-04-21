@@ -5,7 +5,7 @@ import './Events.scss';
 
 export const Events = () => (
   <div className="events">
-    <h3 className="events__title">Events</h3>
+    <h3 className="events__title">EVENTS</h3>
     <ul className="events__list">
       {events.map(event => (
         <li className="events__item">

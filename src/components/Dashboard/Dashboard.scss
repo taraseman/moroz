@@ -12,8 +12,10 @@
     gap: 17px;
   }
   &__visitors {
+    border: 1px rgb(228, 228, 228) solid;
     height: 540px;
-    background-color: red;
+    padding: 1px;
+    padding-top: 60px;
   }
   &__top-order-wrapper {
     margin-top: 20px;
@@ -22,5 +24,10 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 17px;
+  }
+
+  &__order {
+    border: 1px rgb(228, 228, 228) solid;
+    padding: 1px;
   }
 }

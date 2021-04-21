@@ -1,4 +1,24 @@
 .weather {
   height: 260px;
-  background-color: blue;
+  background-color: #198ae1;
+
+  padding-left: 33px;
+  padding-right: 27px;
+  padding-top: 28px;
+  padding-bottom: 20px;
+
+  color: #fff;
+
+  text-align: right;
+
+  &__logo {
+    display: inline-block;
+  }
+
+  &__week-day {
+    font-size: 20px;
+  }
+  &__date {
+    font-size: 20px;
+  }
 }
