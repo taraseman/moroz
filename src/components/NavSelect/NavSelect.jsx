@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import classNames from 'classnames';
+import PropTypes from 'prop-types';
 import { NavLink } from 'react-router-dom';
 import './NavSelect.scss';
 
@@ -60,4 +61,10 @@ export const NavSelect = ({ links, title, icon }) => {
     }
     </>
   );
+};
+
+NavSelect.propTypes = {
+  links: PropTypes.arrayOf(PropTypes.string).isRequired,
+  title: PropTypes.string.isRequired,
+  icon: PropTypes.string.isRequired,
 };

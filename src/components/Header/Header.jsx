@@ -90,3 +90,8 @@ export const Header = ({ isNavVisible, setNavVisibility }) => {
     </header>
   );
 };
+
+Header.propTypes = {
+  isNavVisible: PropTypes.bool.isRequired,
+  setNavVisibility: PropTypes.func.isRequired,
+};

@@ -7,8 +7,11 @@ export const Events = () => (
   <div className="events">
     <h3 className="events__title">EVENTS</h3>
     <ul className="events__list">
-      {events.map(event => (
-        <li className="events__item">
+      {events.map((event, i) => (
+        <li
+          className="events__item"
+          key={event.id}
+        >
           <div className="events__item-title">{event.title}</div>
           <div
             className="events__item-box"

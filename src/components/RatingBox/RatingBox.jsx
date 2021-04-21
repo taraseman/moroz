@@ -1,4 +1,6 @@
 import React from 'react';
+import PropTypes from 'prop-types';
+
 import './RatingBox.scss';
 
 export const RatingBox = ({ color, title, number, text, progress }) => (
@@ -25,3 +27,11 @@ export const RatingBox = ({ color, title, number, text, progress }) => (
     </div>
   </div>
 );
+
+RatingBox.propTypes = {
+  color: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  number: PropTypes.string.isRequired,
+  text: PropTypes.string.isRequired,
+  progress: PropTypes.string.isRequired,
+};

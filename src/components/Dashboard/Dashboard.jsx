@@ -1,14 +1,15 @@
 import React from 'react';
 import classNames from 'classnames';
+import PropTypes from 'prop-types';
 import { CanvasJSChart } from 'canvasjs-react-charts';
 import { RatingBoxes } from '../RatingBoxes';
 import { Events } from '../Events';
 import { Weather } from '../Weather';
-
-import './Dashboard.scss';
 import { Order } from '../Order/Order';
 import { Comments } from '../Comments';
 import { Top } from '../Top';
+
+import './Dashboard.scss';
 
 export const Dashboard = ({ isNavVisible }) => {
   const options = {
@@ -62,4 +63,8 @@ export const Dashboard = ({ isNavVisible }) => {
       </div>
     </div>
   );
+};
+
+Dashboard.propTypes = {
+  isNavVisible: PropTypes.bool.isRequired,
 };

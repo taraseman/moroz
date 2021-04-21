@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import './Comment.scss';
 
 export const Comment = (
@@ -29,3 +30,11 @@ export const Comment = (
     </div>
   </div>
 );
+
+Comment.propTypes = {
+  text: PropTypes.string.isRequired,
+  buttonColor: PropTypes.string.isRequired,
+  buttonText: PropTypes.string.isRequired,
+  date: PropTypes.string.isRequired,
+  img: PropTypes.string.isRequired,
+};
