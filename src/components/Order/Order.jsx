@@ -7,7 +7,7 @@ export const Order = () => {
   const options = {
     animationEnabled: true,
     title: {
-      text: 'Customer Satisfaction',
+      text: 'ORDER STARS',
     },
     subtitles: [{
       text: '4,500 Delivered',
