@@ -38,6 +38,7 @@ export const NavSelect = ({ links, title, icon }) => {
                   to={`/${link.toLowerCase()}`}
                   className="nav-link nav-link--small"
                   activeClassName="nav-link--active"
+                  key={link}
                 >
                   <p className="nav-link__title">{link}</p>
                 </NavLink>

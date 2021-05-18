@@ -5,3 +5,10 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 17px;
 }
+
+@media (max-width: 1162px) {
+  .rating-boxes {
+    grid-template-columns: 1fr;
+    
+  }
+}
